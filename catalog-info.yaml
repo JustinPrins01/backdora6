@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: User
 metadata:
-  name: backdora6
-  annotations:
-    github.com/project-slug: JustinPrins01/backdora6
+  name: jdoe
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guest
+  profile:
+    displayName: Jenny Doe
+    email: jenny-doe@example.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [team-b, employees]
